@@ -25,7 +25,7 @@ const CreateUser = async (req, res) => {
     );
     res
       .status(201)
-      .send({ Message: "User Created Successfully !", token, UserCreated });
+      .send({ Message: "User Created Successfully !", UserCreated , token});
   } catch (error) {
     res.status(400).send({ error: error.message });
   }

@@ -4,7 +4,7 @@ mongoose.set("strictQuery", false);
 
 dotenv.config();
 mongoose
-  .connect(process.env.DB_CONNECT, {
+  .connect("mongodb+srv://tanmay:aCntuMLy1TfUBiBd@cluster0.qrp7xzb.mongodb.net/?retryWrites=true&w=majority", {
    
   })
   .then(() => {

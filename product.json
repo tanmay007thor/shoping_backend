@@ -1,0 +1,32 @@
+{
+    "id": "catogary id",
+    "name": "catogary name",
+    "img": "catogary image",
+    "creator": "catogary creator",
+    "products": [
+        {
+            "productId": "productId",
+            "name": "product name",
+            "productType": "productType",
+            "productQuantity": 4,
+            "image": "image",
+            "price": 100,
+            "size": "large",
+            "about this item": "details............",
+            "color": "color"
+        },
+        {
+            "productId": "productId",
+            "name": "product name",
+            "productType": "productType",
+            "productQuantity": 4,
+            "image": "image",
+            "price": 100,
+            "size": "large",
+            "about this item": "details............",
+            "color": "color",
+            "rating": 4,
+            "review": null
+        }
+    ]
+}

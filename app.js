@@ -4,7 +4,8 @@ const dotenv = require("dotenv");
 dotenv.config();
 const port = process.env.PORT
 require('./Database/config')
-const UserRouter = require('./Router/UserRoutes')
+const UserRouter = require('./Router/UserRoutes');
+const ProductRouter = require('./Router/ProductRoutes');
 
 app.use(function (req, res, next) {
     res.setHeader('Access-Control-Allow-Origin', '*');
@@ -25,7 +26,7 @@ app.use(function (req, res, next) {
 // })
 
 app.use("/api/v1/user" , UserRouter)
-
+app.use("/api/v1/products" , ProductRouter)
 
 
 
